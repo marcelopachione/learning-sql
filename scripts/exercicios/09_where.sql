@@ -5,6 +5,6 @@ SELECT IdTransacao,
         WHEN QtdePontos < 10 THEN 'Baixo'
         WHEN QtdePontos < 500 THEN 'Medio'
         WHEN QtdePontos >= 500 THEN 'Alto'
-    END AS NivelPontos
+    END AS FlQtddePontos
 FROM transacoes;
 
