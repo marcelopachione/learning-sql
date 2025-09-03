@@ -93,3 +93,11 @@ SELECT idCliente,
 FROM transacoes
 GROUP BY idCliente
 ```
+## JOIN
+    Como podemos cruzar dados de diferentes tabelas para obter informações mais interessantes a respeito de nossas vendas?
+    Por exemplo, quantidade de vendas realizadas por vendedores do Ceará?
+
+    Para isso, teremos que aprender os diferentes tipos de JOINs:
+    LEFT, RIGHT, INNER...
+
+![image](img/joins.png)
