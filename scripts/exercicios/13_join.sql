@@ -35,3 +35,4 @@ tb_rn AS (
 
 SELECT *
 FROM tb_rn
+WHERE rn = 1
